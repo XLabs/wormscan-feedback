@@ -1,0 +1,24 @@
+name: ✨ Feature Request
+description: Suggest an improvement to the documentation
+title: "Feature request for: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Feature details
+      description: Please fill out each section below.
+      value: |
+        **Is your feature request related to a problem? Please describe.**
+        <!-- Example: I'm always frustrated when [...] -->
+
+        **Describe the solution you'd like**
+        <!-- Clearly describe the improvement you want to see -->
+
+        **Describe alternatives you've considered**
+        <!-- Any alternative solutions or features you have thought about -->
+
+        **Additional context**
+        <!-- Any other relevant context, screenshots, or references -->
+    validations:
+      required: true

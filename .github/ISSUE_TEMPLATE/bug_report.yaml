@@ -1,0 +1,36 @@
+name: 🐞 Bug Report
+description: Report an issue in the documentation
+title: "Bug report for: "
+labels: [bug]
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Bug details
+      description: Please fill out each section below.
+      value: |
+        **Describe the bug**
+        <!-- Clearly explain the issue -->
+
+        **To Reproduce (step-by-step)**
+        <!-- Numbered steps to reproduce the issue -->
+        1.
+        2.
+        3.
+
+        **Expected behavior**
+        <!-- What should have happened? -->
+
+        **Screenshots (if applicable)**
+        <!-- Drag and drop images if they help explain the issue -->
+
+        **Desktop info (OS, Browser, Version)**
+        <!-- Example: macOS 14.5, Chrome 126 -->
+
+        **Smartphone info (Device, OS, Browser, Version)**
+        <!-- Example: iPhone 13, iOS 17.5, Safari -->
+
+        **Additional context**
+        <!-- Any extra details, links, or related information -->
+    validations:
+      required: true
